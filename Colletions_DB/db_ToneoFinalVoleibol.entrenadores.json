@@ -1,0 +1,20 @@
+[{
+  "_id": {
+    "$oid": "6736d145a83bcf99d40d819c"
+  },
+  "nombre": "Pedro",
+  "apellidos": "Gonzales",
+  "edad": "36",
+  "documento": "1471541875",
+  "equipo": "Team 1"
+},
+{
+  "_id": {
+    "$oid": "6736d145a83bcf99d40d819d"
+  },
+  "nombre": "Aurelio",
+  "apellidos": "Acevedo",
+  "edad": "36",
+  "documento": "1471541875",
+  "equipo": "Team 2"
+}]

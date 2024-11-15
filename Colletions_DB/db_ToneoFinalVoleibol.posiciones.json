@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6736d165a83bcf99d40d81a6"
+  },
+  "nombreEquipo": "Team 1",
+  "posiciones": [
+    {
+      "nombreDeportista": "Juan",
+      "posicion": "Libero"
+    },
+    {
+      "nombreDeportista": "Camilo",
+      "posicion": "Puntero"
+    },
+    {
+      "nombreDeportista": "Andres",
+      "posicion": "Levantador"
+    },
+    {
+      "nombreDeportista": "Camila",
+      "posicion": "Puntero"
+    },
+    {
+      "nombreDeportista": "Maria",
+      "posicion": "Central"
+    },
+    {
+      "nombreDeportista": "Janna",
+      "posicion": "opuesto"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6736d165a83bcf99d40d81a7"
+  },
+  "nombreEquipo": "Team 2",
+  "posiciones": [
+    {
+      "nombreDeportista": "Erik",
+      "posicion": "Libero"
+    },
+    {
+      "nombreDeportista": "Alexis",
+      "posicion": "Puntero"
+    },
+    {
+      "nombreDeportista": "Marco",
+      "posicion": "Levantador"
+    },
+    {
+      "nombreDeportista": "Fernanda",
+      "posicion": "Puntero"
+    },
+    {
+      "nombreDeportista": "Karla",
+      "posicion": "Central"
+    },
+    {
+      "nombreDeportista": "Yesenia",
+      "posicion": "opuesto"
+    }
+  ]
+}]

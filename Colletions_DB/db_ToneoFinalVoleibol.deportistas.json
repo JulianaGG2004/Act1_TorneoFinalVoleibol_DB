@@ -1,0 +1,132 @@
+[{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8190"
+  },
+  "nombre": "Juan",
+  "apellidos": "Gomez Lopez",
+  "edad": "21",
+  "documento": "1231456415",
+  "genero": "masculino",
+  "equipo": "Team 1"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8191"
+  },
+  "nombre": "Camilo",
+  "apellidos": "Martinez",
+  "edad": "21",
+  "documento": "147852212",
+  "genero": "masculino",
+  "equipo": "Team 1"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8192"
+  },
+  "nombre": "Andres",
+  "apellidos": "Del Toro",
+  "edad": "23",
+  "documento": "1031561474",
+  "genero": "masculino",
+  "equipo": "Team 1"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8193"
+  },
+  "nombre": "Camila",
+  "apellidos": "Perez Garcia",
+  "edad": "22",
+  "documento": "1021514412",
+  "genero": "femenino",
+  "equipo": "Team 1"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8194"
+  },
+  "nombre": "Maria",
+  "apellidos": "Ruiz Garcia",
+  "edad": "21",
+  "documento": "1021410121",
+  "genero": "femenino",
+  "equipo": "Team 1"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8195"
+  },
+  "nombre": "Janna",
+  "apellidos": "Gutierrez",
+  "edad": "22",
+  "documento": "1031485696",
+  "genero": "femenino",
+  "equipo": "Team 1"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8196"
+  },
+  "nombre": "Erik",
+  "apellidos": "Gomez",
+  "edad": "21",
+  "documento": "1031844754",
+  "genero": "masculino",
+  "equipo": "Team 2"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8197"
+  },
+  "nombre": "Alexis",
+  "apellidos": "Godoy",
+  "edad": "23",
+  "documento": "1025485741",
+  "genero": "masculino",
+  "equipo": "Team 2"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8198"
+  },
+  "nombre": "Marco",
+  "apellidos": "Pava",
+  "edad": "20",
+  "documento": "1031651554",
+  "genero": "masculino",
+  "equipo": "Team 2"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d8199"
+  },
+  "nombre": "Fernanda",
+  "apellidos": "Pereira",
+  "edad": "23",
+  "documento": "5454852145",
+  "genero": "femenino",
+  "equipo": "Team 2"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d819a"
+  },
+  "nombre": "Karla",
+  "apellidos": "Venegas",
+  "edad": "21",
+  "documento": "1032065242",
+  "genero": "femenino",
+  "equipo": "Team 2"
+},
+{
+  "_id": {
+    "$oid": "6736d121a83bcf99d40d819b"
+  },
+  "nombre": "Yesenia",
+  "apellidos": "Bohorquez",
+  "edad": "21",
+  "documento": "154182323",
+  "genero": "femenino",
+  "equipo": "Team 2"
+}]

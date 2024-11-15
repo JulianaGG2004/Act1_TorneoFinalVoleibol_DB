@@ -1,0 +1,56 @@
+//para crear la base de datos
+use db_ToneoFinalVoleibol
+//Para ver las collections
+show collections
+//para crear o insertar una collection Deportistas 
+db.deportistas.insertMany([{"nombre":"Juan","apellidos":"Gomez Lopez", "edad": "21", "documento": "1231456415","genero":"masculino", "equipo": "Team 1"},
+{"nombre":"Camilo","apellidos":"Martinez", "edad": "21", "documento": "147852212","genero":"masculino", "equipo": "Team 1"},
+{"nombre":"Andres","apellidos":"Del Toro", "edad": "23", "documento": "1031561474","genero":"masculino", "equipo": "Team 1"},
+{"nombre":"Camila","apellidos":"Perez Garcia", "edad": "22", "documento": "1021514412","genero":"femenino", "equipo": "Team 1"},
+{"nombre":"Maria","apellidos":"Ruiz Garcia", "edad": "21", "documento": "1021410121","genero":"femenino", "equipo": "Team 1"},
+{"nombre":"Janna","apellidos":"Gutierrez", "edad": "22", "documento": "1031485696","genero":"femenino", "equipo": "Team 1"},
+{"nombre":"Erik","apellidos":"Gomez", "edad": "21", "documento": "1031844754","genero":"masculino", "equipo": "Team 2"},
+{"nombre":"Alexis","apellidos":"Godoy", "edad": "23", "documento": "1025485741","genero":"masculino", "equipo": "Team 2"},
+{"nombre":"Marco","apellidos":"Pava", "edad": "20", "documento": "1031651554","genero":"masculino", "equipo": "Team 2"},
+{"nombre":"Fernanda","apellidos":"Pereira", "edad": "23", "documento": "5454852145","genero":"femenino", "equipo": "Team 2"},
+{"nombre":"Karla","apellidos":"Venegas", "edad": "21", "documento": "1032065242","genero":"femenino", "equipo": "Team 2"},
+{"nombre":"Yesenia","apellidos":"Bohorquez", "edad": "21", "documento": "154182323","genero":"femenino", "equipo": "Team 2"}])
+//para crear o insertar una collection Entrenadores
+db.entrenadores.insertMany([{"nombre":"Pedro","apellidos":"Gonzales", "edad": "36", "documento": "1471541875", "equipo": "Team 1"},
+{"nombre":"Aurelio","apellidos":"Acevedo", "edad": "36", "documento": "1471541875", "equipo": "Team 2"}])
+//para crear o insertar una collection Albitros
+db.arbitros.insertMany([{"nombre":"Andres","apellidos":"Rodriguez", "edad": "42", "documento": "1155445254"},
+ {"nombre":"Samuel","apellidos":"Millan", "edad": "35", "documento": "32165498" }])
+//para crear o insertar una collection encuentros
+db.encuentros.insertOne({"hora":"8:00 am", "fecha": "12/12/2024", "equipos":[{"nombreEquipo":"Team 1"},{"nombreEquipo": "Team 2"}], "numeroCancha": "cancha 1"})
+//para crear o insertar una collection de resultados
+db.resultados.insertOne({"numeroSet": "1","equipos":[{"nombreEquipo": "Team 1", "puntuacion": "0"},{"nombreEquipo": "Team 2", "puntuacion": "0"}]})
+db.resultados.insertOne({"numeroSet": "2","equipos":[{"nombreEquipo": "Team 1", "puntuacion": "0"},{"nombreEquipo": "Team 2", "puntuacion": "0"}]})
+db.resultados.insertOne({"numeroSet": "3","equipos":[{"nombreEquipo": "Team 1", "puntuacion": "0"},{"nombreEquipo": "Team 2", "puntuacion": "0"}]})
+db.resultados.insertOne({"numeroSet": "4","equipos":[{"nombreEquipo": "Team 1", "puntuacion": "0"},{"nombreEquipo": "Team 2", "puntuacion": "0"}]})
+db.resultados.insertOne({"numeroSet": "5","equipos":[{"nombreEquipo": "Team 1", "puntuacion": "0"},{"nombreEquipo": "Team 2", "puntuacion": "0"}]})
+//para crear o insertar una collection de Posiciones
+db.posiciones.insertOne({"nombreEquipo": "Team 1", "posiciones":[{"nombreDeportista": "Juan", "posicion": "Libero"}, {"nombreDeportista": "Camilo", "posicion": "Puntero"}, {"nombreDeportista": "Andres", "posicion": "Levantador"}, {"nombreDeportista": "Camila", "posicion": "Puntero"}, {"nombreDeportista": "Maria", "posicion": "Central"}, {"nombreDeportista": "Janna", "posicion": "opuesto"}]})
+db.posiciones.insertOne({"nombreEquipo": "Team 2", "posiciones":[{"nombreDeportista": "Erik", "posicion": "Libero"}, {"nombreDeportista": "Alexis", "posicion": "Puntero"}, {"nombreDeportista": "Marco", "posicion": "Levantador"}, {"nombreDeportista": "Fernanda", "posicion": "Puntero"}, {"nombreDeportista": "Karla", "posicion": "Central"}, {"nombreDeportista": "Yesenia", "posicion": "opuesto"}]})
+
+//Para buscar todos los elementos de una coleccion en especifico
+db.deportistas.find()
+
+db.entrenadores.find()
+
+db.albitros.find()
+
+db.encuentros.find()
+
+db.resultados.find()
+
+db.posiciones.find()
+
+//Actualizar elementos
+db.resultados.updateMany({"numeroSet": "1"}, {$set:{"equipos.0.puntuacion":"25", "equipos.1.puntuacion":"23"}})
+db.resultados.updateMany({"numeroSet": "2"}, {$set:{"equipos.0.puntuacion":"25", "equipos.1.puntuacion":"17"}})
+db..updateMany({"numeroSet": "2"}, {$set:{"equipos.0.puntuacion":"25", "equipos.1.puntuacion":"19"}})
+
+//Eliminar elementos 
+db.resultados.deleteMany({"numeroSet": "4"})
+db.resultados.deleteMany({"numeroSet": "5"})

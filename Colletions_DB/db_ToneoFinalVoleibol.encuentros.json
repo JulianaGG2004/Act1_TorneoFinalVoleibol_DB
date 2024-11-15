@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "6736d158a83bcf99d40d81a0"
+  },
+  "hora": "8:00 am",
+  "fecha": "12/12/2024",
+  "equipos": [
+    {
+      "nombreEquipo": "Team 1"
+    },
+    {
+      "nombreEquipo": "Team 2"
+    }
+  ],
+  "numeroCancha": "cancha 1"
+}]

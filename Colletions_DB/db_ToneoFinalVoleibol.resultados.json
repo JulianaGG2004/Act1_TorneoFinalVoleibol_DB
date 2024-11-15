@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6736d15ea83bcf99d40d81a1"
+  },
+  "numeroSet": "1",
+  "equipos": [
+    {
+      "nombreEquipo": "Team 1",
+      "puntuacion": "25"
+    },
+    {
+      "nombreEquipo": "Team 2",
+      "puntuacion": "23"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6736d15ea83bcf99d40d81a2"
+  },
+  "numeroSet": "2",
+  "equipos": [
+    {
+      "nombreEquipo": "Team 1",
+      "puntuacion": "25"
+    },
+    {
+      "nombreEquipo": "Team 2",
+      "puntuacion": "17"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6736d15ea83bcf99d40d81a3"
+  },
+  "numeroSet": "3",
+  "equipos": [
+    {
+      "nombreEquipo": "Team 1",
+      "puntuacion": "25"
+    },
+    {
+      "nombreEquipo": "Team 2",
+      "puntuacion": "19"
+    }
+  ]
+}]
